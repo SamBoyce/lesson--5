@@ -60,7 +60,6 @@ header h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 600px 400px;
-    min-width: 200px;
     min-height: 60px;
     text-align: center;
     
@@ -85,11 +84,13 @@ nav > ul > button {
     margin: 4;
     transition: background-color .5s;
     background-color: #FFA1FB;
+    min-width: 160px;
 }
 
 nav > ul {
     color: lightcyan;
     min-height: 40px;
+    padding: 15px 0 15px 0;
 }
 
 
@@ -113,7 +114,6 @@ aside {
 
 
 #header h1 {
-    width:100%;
     background-color: none;
     text-shadow: 
          0 0 6px lightpink,
@@ -137,6 +137,7 @@ aside {
 
 
 
+/*
 .menu {
     display:flex;
     background-color: #5fd8dc;
@@ -150,10 +151,11 @@ aside {
     max-width: 960px;
     margin: 0 auto;
 }
+*/
 
 #main-content-wrapper {
     background-color:none;
-    width: 80%;
+    margin:0 auto;
 }
 
 p {
