@@ -205,6 +205,7 @@ p {
     border-bottom: 10px #F864E9 solid;
     border-top: 5px #F864E9 solid;
     margin-top: 120;
+    text-align: center;
 }
 
 .col-4 > img {
@@ -212,7 +213,6 @@ p {
 }
 
 .side-by-side {
-    display: flex;
 }
 
 
@@ -227,5 +227,8 @@ footer h1 {
     text-align: center;
 }
 
-
+.max-width {
+    margin: 0 auto;
+    max-width: 300px;
+}
 
