@@ -175,9 +175,7 @@ aside {
     margin: 0 auto;
 }
 
-#main-content-wrapper article {
-    
-}
+
 
 p {
     color: white;
@@ -225,11 +223,6 @@ p {
 .col-4 > img {
     max-width: 200px;
 }
-
-.side-by-side {
-}
-
-
 
 
 footer {
