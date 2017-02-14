@@ -22,20 +22,26 @@ body {
 
 .image-content > img {
     max-width: 400px;
-    min-width: 200px;
     max-height: 500px;
     border-radius: 50%;
-    margin-right: 35;
     border: 5px lightblue solid;
 }
 
     
+h4 > a {
+    color: springgreen;
+    filter: brightness(97%);
+}
 
+h4 > a:hover {
+    color: blueviolet;
+}
 
 
 .image-content {
     text-align: center;
 }
+
 
 
 #skills {
@@ -65,7 +71,7 @@ header h1 {
     
 }
 
-h2 {
+article h2 {
     color: white;
     text-shadow: 
         0 0 6px black,
@@ -73,8 +79,16 @@ h2 {
         0 0 6px black,
         0 0 6px black,
         0 0 6px black;
-    margin: 10px;
+    margin:0 auto;
+    text-align: center;
 }
+
+article p {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 nav > ul > button {
     border: none;
@@ -203,7 +217,7 @@ p {
     
 #favorite-sites {
     border-bottom: 10px #F864E9 solid;
-    border-top: 5px #F864E9 solid;
+    border-top: 7px #F864E9 solid;
     margin-top: 120;
     text-align: center;
 }
